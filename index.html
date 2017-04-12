@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Portfolio: Brigitta Unger</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>        
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <script src="https://use.fontawesome.com/1255537c9b.js"></script>
+        <link href="css/carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/styleown.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Glegoo:400,700&amp;subset=latin-ext" rel="stylesheet">
+        
+        
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!--  sticky navbar scrollspy & affix -->
+        <nav class="navbar navbar-fixed-top" data-spy="affix" data-offset-top="200">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+                        <span class="fa fa-bars"></span> 
+                    </button>
+                    <h3 class="navbar-text">Brigitta Unger</h3>
+                </div>
+                <div class="collapse navbar-collapse" id="navBar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="yellow"><a href="#about">About</a></li>
+                        <li id="blue"><a href="#portfolio">Portfolio</a></li>
+                        <li id="red"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END nav -->
+        <!-- carousel-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">          
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>HTML5</h1>
+              <p><span class="fa fa-html5 fa-3x"></span></p>             
+            </div>
+          </div>
+        </div>
+        <div class="item">          
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>CSS3</h1>
+              <p><span class="fa fa-css3 fa-3x"></span></p>             
+            </div>
+          </div>
+        </div>
+        <div class="item">            
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Bootstrap</h1>
+              <p><img src="pictures/bootstrap.png" alt="Bootstrap"/></p>              
+            </div>
+          </div>
+        </div>
+          <div class="item">            
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Joomla</h1>
+              <p><img src="pictures/Joomla.png" alt="Joomla"/></p>              
+            </div>
+          </div>
+        </div>
+          <div class="item">            
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>PHP OOP</h1>
+              <p><img src="pictures/Advanced-PHP.png" alt="PHP OOP and MYSQL"/></p>              
+            </div>
+          </div>
+        </div>
+          <div class="item">            
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Git</h1>
+              <p><img src="pictures/Git.png" alt="Git"/></p>              
+            </div>
+          </div>
+        </div>
+      </div>      
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+<!-- carousel-->
+        <!-- about -->
+        <div class="container-fluid red" id="about">
+            <div class="container">
+                <div class="row">                    
+                    <div class="col-xs-4">
+                        <img class="img-responsive img-circle" id="me" src="pictures/me_sm.jpg" alt="Brigitta Unger"/>
+                    </div>
+                    
+                    <div class="col-xs-7 col-xs-offset-1">
+                        <p id="sixhundred">Hi,</p>                            
+                        <p>My name is Brigitta Unger. I am a newbie in coding but
+                        I like challenges what it gives me.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1">
+                        <p>I finished a course as a web developer, now I am learning PHP OOP in a school meanwhile taking online courses and practicing with challenges.</p>
+                        <p>You can see my skills above.</p>
+                        <p class="text-right">And some of my project below.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- END about -->
+        <!-- Portfolio -->
+        <div class="container-fluid white" id="portfolio">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="https://codepen.io/Brigo/full/JWaGvB/" target="_blank"><img src="pictures/tribute.png" alt="My Tribute page"/></a>
+
+                        <div class="caption text-center"><p>Tribute Page</p></div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="#" target="_blank"><img src="http://placehold.it/400x214" alt="My work"/></a>
+                        <div class="caption text-center"><p>My work</p></div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="#" target="_blank"><img src="http://placehold.it/400x214" alt="My work"/></a>
+                        <div class="caption text-center"><p>My work</p></div>
+                    </div>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="#" target="_blank"><img src="http://placehold.it/400x214" alt="My work"/></a>
+                        <div class="caption text-center"><p>My work</p></div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="#" target="_blank"><img src="http://placehold.it/400x214" alt="My work"/></a>
+                        <div class="caption text-center"><p>My work</p></div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="#" target="_blank"><img src="http://placehold.it/400x214" alt="My work"/></a>
+                        <div class="caption text-center"><p>My work</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Portfolio -->
+        <!-- contact -->
+        <div class="container-fluid green" id="contact">
+            <div>
+                <h1 class="text-center">You can find me here:</h1>
+            </div><br />
+            <div class="text-center">
+            <a href="https://www.freecodecamp.com/ungerbrigi" target="_blank" ><span class="fa fa-free-code-camp fa-3x sign"></span></a>
+            <a href="https://github.com/ungerbrigi" target="_blank" ><span class="fa fa-github fa-3x sign"></span></a>
+            <a href="https://www.facebook.com/brigitta.unger.50" target="_blank" ><span class="fa fa-facebook fa-3x sign"></span></a>
+            <a href="https://www.linkedin.com/in/brigitta-unger-a68548135/" target="_blank" ><span class="fa fa-linkedin fa-3x sign"></span></a>
+            </div>
+            <div><br /><br />
+                <hr />
+            <h2 class="text-center">Or send an e-mail:</h2>
+            </div><br />
+            <div class="text-center">
+           <a href="mailto:ungerbrigi@gmail.com?Subject=Portfolio%20FreeCodeCamp" ><span class="fa fa-paper-plane fa-2x sign"></span></a>
+            </div>
+        </div>
+        <!-- END contact -->
+        <!-- footer -->
+        <div class="container-fluid footer">
+            <div class="text-center">
+                <p>Coded by Brigitta Unger <span class="glyphicon glyphicon-copyright-mark"></span> 2017 </p>
+            </div>
+
+        </div>
+        <!-- END footer -->
+        <script src="js/jquery-3.2.0.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    </body>
+</html>

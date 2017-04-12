@@ -1,0 +1,149 @@
+
+body {
+    color: #b3b3b3;
+    font-size: 18px;
+    font-family: 'Glegoo', serif;
+}
+nav {
+    font-size: 20px;
+    color: #b3b3b3;
+}
+.navbar {
+    background-color: #602060;
+}
+.navbar-text {
+    color: #b3b3b3;
+    padding-left: 10px;
+}
+.navbar-right a {
+    color: #b3b3b3;
+}
+#yellow a:hover {
+    border-bottom: 3px solid yellow;
+    background-color: #4d194d;
+    color: #b3b3b3;
+}
+#yellow a:focus {
+    border-bottom: 3px solid yellow;
+    background-color: #4d194d;
+}
+#blue a:hover {
+    border-bottom: 3px solid #0085ff;
+    background-color: #4d194d;
+    color: #b3b3b3;
+}
+#red a:hover {
+    border-bottom: 3px solid red;
+    background-color: #4d194d;
+    color: #b3b3b3;   
+}
+.fa-html5 {
+    color: orangered;
+}
+.fa-css3 {
+    color: #0066ff;
+}
+.red {
+    background-color: #732673;
+    height: 500px;   
+    padding-top: 40px;
+    font-size: 18px;
+}
+#me {  
+    float: right;
+    border: 5px solid #602060;
+   }
+.white {
+    background-color: #cccccc;
+    height: 280px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+.caption {
+    font-size: 12px;
+}
+.green {
+    background-color: #732673;
+    height: 600px;
+    padding-top: 20px;
+}
+hr {
+    width: 70%;    
+}
+.sign {
+    padding: 5px 40px;
+    color: white;
+    transition: 0.6s;
+}
+.sign:hover {
+    color: #260d26;
+}
+.footer {
+    background-color: #4d194d;
+    height: 50px;
+    padding-top: 15px;
+}
+
+
+@media (min-width: 400px) {
+    .white {
+        height: 320px;
+    }
+    .green {
+        padding-top: 60px;
+    }
+}
+@media (min-width: 500px) {
+    .white {
+        height: 380px;
+    }
+}
+@media (min-width: 600px) {
+    #sixhundred {
+        padding-top: 50px;
+    }
+}
+@media (min-width: 700px) {
+    .white {
+        height: 420px;
+    }
+}
+@media (min-width: 768px){
+    .red {
+        font-size: 20px;
+    }
+    .white {
+        height: 500px;
+    }
+    .caption {
+        font-size: 16px;
+    }
+    .green {
+        padding-top: 100px;
+    }
+    .sign {
+        font-size: 5em;
+    }    
+}
+@media (min-width: 1024px) {
+    .red {
+        height: 600px;
+    }
+    #sixhundred {
+        padding-top: 100px;
+    }
+    .white {
+        height: 600px;
+        padding-top: 15px;
+    }
+}
+@media (min-width: 1440px) {
+    .red {
+        font-size: 23px;
+        height: 650px;
+    }
+    .white {
+        height: 660px;
+        padding-top: 15px;
+    }
+}
